@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Undangan Pernikahan</h1>
+            <h2>YUNITA AZZAHRA & RENALDI MARLENDRA</h2>
+        </header>
+        
+        <section class="details">
+            <h3>Dengan segala hormat,</h3>
+            <p>Kami mengundang Alumni Mts untuk hadir pada acara pernikahan kami:</p>
+            <p><strong>Tanggal: 18 Oktober 2024</strong></p>
+            <p><strong>Waktu: 13:00 WIB</strong></p>
+            <p><strong>Lokasi: Lapangan PENTOL Beringin Taluk</strong></p>
+        </section>
+
+        <section class="rsvp">
+            <h3>Konfirmasi Kehadiran</h3>
+            <form>
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="attendance">Akan hadir?</label>
+                <select id="attendance" name="attendance">
+                    <option value="yes">Ya</option>
+                    <option value="no">Tidak</option>
+                </select>
+
+                <input type="submit" value="Kirim">
+            </form>
+        </section>
+    </div>
+</body>
+</html>
